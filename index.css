@@ -1,0 +1,283 @@
+body{
+    font-family: Roboto Slab, DejaVu Serif, Georgia, Times New Roman, sans-serif ;
+    background-color: #EFEFE7;
+}
+
+body{
+    margin: 0;
+}
+
+.mainDiv{
+    display: flex;
+    flex-direction: column;   
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #F3F3EB;
+}
+
+.header1{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    padding: 1em;
+}
+
+.logo{
+    width: 11%;
+}
+
+.logoImg{
+    width: 100%;
+
+}
+
+.heading{
+    margin-left: 1%;
+    font-size: 1.5em;
+    color: #9A9994;
+}
+
+.search{
+    margin-left: auto;
+    width: 30%;
+    display: flex;
+    border: 1px solid #c7c7c7;
+    padding: 0.4em;
+    border-radius: 2em;
+    background-color: white;
+}
+
+.searchText{
+    border: none;
+    width: 100%;
+    padding-left: 0.2em;
+    outline: none;
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+    background-color: #EAE9E1;
+}
+
+.intro1{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 2fr 1.4fr;
+}
+
+.introText{
+    font-size: 1.1em;
+    padding-right: 2em;
+    line-height: 1.4em;
+    color: #4E443C;
+
+}
+
+.introText a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.introImage{
+    width: 90%;
+    padding: 1.4em;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.section1{
+    width:70%;
+    display: flex;
+}
+
+.leftSection{
+    display: flex;
+    flex-direction: column;
+    width: 62%;
+    border-right: 1px rgba(167, 167, 167, 0.445) solid;
+    margin-top: 1em;
+}
+
+.topSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.box{
+    display: flex;
+    height: 6em;
+    padding-top: 15%;
+    padding-right: 2em;
+}
+
+.boxImg{
+    width: 80%;
+    height: auto;
+}
+
+.topRightBox{
+    color: #EF391A;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.bottomRightBox{
+    padding-top: 0.4em;
+    font-size: 0.8em;
+    color:  #595959;
+}
+
+.bottomSection{
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+    margin-right: 1em;
+    border-top: 1px rgba(167, 167, 167, 0.445) solid;
+    padding-top: 1em;
+}
+
+.bottomImg{
+    width: 10%;
+}
+
+.bottomImage{
+    width: 100%;
+}
+
+.bottomText{
+    font-size: 0.9em;
+    margin-left: 1em;
+    width: 85%;
+}
+
+.bottomText a{
+    text-decoration: none;
+    color: #20a1aa;
+}
+
+.rightSection{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.topSectionR{
+    margin-top: 2em;
+    background-image: url("https://git-scm.com/images/monitor-windows.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex:1;
+    width: 21em;
+    display: flex;
+}
+
+.details{
+    margin-left: 2.5em;
+    margin-top: 3em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.details a{
+    color: white;
+}
+
+.download{
+    background-color: #176268;
+    padding: .5em;
+    margin: 1.4em 2em;
+    border: 1px solid rgb(11, 15, 34);
+}
+
+.bottomSectionR{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding: 1em;
+
+}
+
+.linkText a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.rightLink{
+    display: flex;
+    margin-top: 0.6em;
+    margin-left: 1em;
+}
+
+.linkIcon{
+    color: #847D75;
+    margin-right: 0.3em;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.companies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    padding-top: 1em;
+    border-top: 1px rgba(167, 167, 167, 0.445) solid;
+}
+
+.footerHead{
+    color: #4e443c;
+    line-height: 33px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footerLinks{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.footerDetails{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: 1.5em;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+    border-top: 1px rgba(167, 167, 167, 0.445) solid;
+}
+
+.leftDetails{
+    display: flex;
+    font-size: 12px;
+}
+
+.leftDetail{
+    margin-left: 1em;
+}
+
+.leftDetailHead{
+    font-weight: 500;
+}
+
+.leftDetailText{
+    color: #9a9994;
+}
+
+.rightDetails{
+    font-size: 12px;
+}
