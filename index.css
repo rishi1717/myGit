@@ -281,3 +281,23 @@ body{
 .rightDetails{
     font-size: 12px;
 }
+
+.footerLink:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.rightLink:hover,.topRightBox:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.download:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.bottomText a:hover,.introText a:hover{
+    text-decoration: underline;
+}
+
